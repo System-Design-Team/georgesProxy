@@ -2,37 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="sylesheet" href="./style.css">
-    <title>Worst Buy</title>
+    <!-- <link rel="sylesheet" href="main.css"> -->
+    <title>Tim Proxy</title>
   </head>
   <body>
-    <div id="nav-bar"></div>
-    <div id="product-display"></div>
-    <div id="pricing-component"></div>
-    <div id="review-component"></div>
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <script src="http://localhost:9001/App.js"></script>
-    <script src="http://localhost:9002/App.js"></script>
-    <script src="http://localhost:9003/App.js"></script>
-    <script src="http://localhost:9004/App.js"></script>
-    <script>
-      ReactDOM.render(
-        React.createElement(NavBar),
-        document.getElementById('nav-bar')
-      );
-      ReactDOM.render(
-        React.createElement(ProductDisplay),
-        document.getElementById('product-display')
-      );
-      ReactDOM.render(
-        React.createElement(PricingComponent),
-        document.getElementById('pricing-component')
-      );
-      ReactDOM.render(
-        React.createElement(ReviewComponent),
-        document.getElementById('review-component')
-      );
-    </script>
+    <link rel="stylesheet" type="text/css" href="http://localhost:9000/main.css">
+    <div id="proxy-root"></div>
+    <div id="proxy-root1"></div>
+    <script src="http://localhost:9001/bundle.js"></script>
+    <!-- <script src="http://localhost:9002/bundle.js"></script>
+    <script src="http://localhost:9003/bundle.js"></script> -->
+    <!-- <script src="http://localhost:9004/bundle.js"></script> -->
   </body>
-</html> 
+</html>
