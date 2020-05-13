@@ -1,0 +1,7 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "talltimblack/fec-proxy"
+  },
+  "Ports": [{ "ContainerPort": "9000" }]
+}
